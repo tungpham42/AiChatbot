@@ -1,19 +1,21 @@
 ﻿using Avalonia;
-using Avalonia.Diagnostics;
 using System;
+using Velopack; // 1. Add the Velopack namespace
 
 namespace AiChatbot;
 
 class Program
 {
-    // Initialization code. Don't use any Avalonia, third-party APIs or any
-    // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
-    // yet and stuff might break.
     [STAThread]
-    public static void Main(string[] args) => BuildAvaloniaApp()
-        .StartWithClassicDesktopLifetime(args);
+    public static void Main(string[] args) 
+    {
+        // 2. Add this line BEFORE your Avalonia app starts!
+        // This allows Velopack to intercept setup events like creating shortcuts.
+        VelopackApp.Build().Run();
 
-    // Avalonia configuration, don't remove; also used by visual designer.
+        BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
+    }
+
     public static AppBuilder BuildAvaloniaApp()
         => AppBuilder.Configure<App>()
             .UsePlatformDetect()

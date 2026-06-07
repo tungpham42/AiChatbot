@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[10.0.8, )",
               "autoReferenced": true
+            },
+            "Velopack": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             }
           },
           "imports": [

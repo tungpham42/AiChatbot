@@ -252,3 +252,4 @@
 /Users/tungpham/Documents/GitHub/AiChatbot/obj/Release/net10.0/win-x64/AiChatbot.pdb
 /Users/tungpham/Documents/GitHub/AiChatbot/obj/Release/net10.0/win-x64/AiChatbot.genruntimeconfig.cache
 /Users/tungpham/Documents/GitHub/AiChatbot/obj/Release/net10.0/win-x64/ref/AiChatbot.dll
+/Users/tungpham/Documents/GitHub/AiChatbot/bin/Release/net10.0/win-x64/Velopack.dll

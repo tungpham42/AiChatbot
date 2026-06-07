@@ -206,4 +206,5 @@
 /usr/local/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.8/ref/net10.0/System.Xml.XPath.dll
 /usr/local/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.8/ref/net10.0/System.Xml.XPath.XDocument.dll
 /Users/tungpham/.nuget/packages/tmds.dbus.protocol/0.92.0/lib/net9.0/Tmds.DBus.Protocol.dll
+/Users/tungpham/.nuget/packages/velopack/1.2.0/lib/net10.0/Velopack.dll
 /usr/local/share/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.8/ref/net10.0/WindowsBase.dll

@@ -19,5 +19,6 @@
     </PackageReference>
     <PackageReference Include="Markdown.Avalonia" Version="12.0.0-a3" />
     <AvaloniaResource Include="Assets\**" />
+    <PackageReference Include="Velopack" Version="1.2.0" />
   </ItemGroup>
 </Project>

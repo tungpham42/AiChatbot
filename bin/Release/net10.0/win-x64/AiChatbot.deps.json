@@ -14,6 +14,7 @@
           "Avalonia.Fonts.Inter": "12.0.4",
           "Avalonia.Themes.Fluent": "12.0.4",
           "Markdown.Avalonia": "12.0.0-a3",
+          "Velopack": "1.2.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "10.0.8"
         },
         "runtime": {
@@ -1189,6 +1190,14 @@
             "fileVersion": "0.92.0.0"
           }
         }
+      },
+      "Velopack/1.2.0": {
+        "runtime": {
+          "lib/net10.0/Velopack.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.62189"
+          }
+        }
       }
     }
   },
@@ -1440,6 +1449,13 @@
       "sha512": "sha512-h7IMakm0PF2jxiagoysoAjrzzLQ0UBdnSXQL5kb17YW0Fvyo12Tg96A99QkzwktWRrd7H+Uw9EzjasNLUfGYlA==",
       "path": "tmds.dbus.protocol/0.92.0",
       "hashPath": "tmds.dbus.protocol.0.92.0.nupkg.sha512"
+    },
+    "Velopack/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rz67gJL619fSBS6omaSINUxyDuwhIxkm5mmubf7uLd5Qgi6LLKaKCha+QFP6n+Bw/UjA0vutnH4JQfYzn6ANtw==",
+      "path": "velopack/1.2.0",
+      "hashPath": "velopack.1.2.0.nupkg.sha512"
     }
   },
   "runtimes": {

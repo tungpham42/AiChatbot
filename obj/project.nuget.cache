@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AR8zy9kVCnY=",
+  "dgSpecHash": "tjzhsWQnHzw=",
   "success": true,
   "projectFilePath": "/Users/tungpham/Documents/GitHub/AiChatbot/AiChatbot.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "/Users/tungpham/.nuget/packages/svg.model/4.1.0/svg.model.4.1.0.nupkg.sha512",
     "/Users/tungpham/.nuget/packages/svg.scenegraph/4.1.0/svg.scenegraph.4.1.0.nupkg.sha512",
     "/Users/tungpham/.nuget/packages/tmds.dbus.protocol/0.92.0/tmds.dbus.protocol.0.92.0.nupkg.sha512",
+    "/Users/tungpham/.nuget/packages/velopack/1.2.0/velopack.1.2.0.nupkg.sha512",
     "/Users/tungpham/.nuget/packages/microsoft.netcore.app.runtime.win-x64/10.0.8/microsoft.netcore.app.runtime.win-x64.10.0.8.nupkg.sha512",
     "/Users/tungpham/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/10.0.8/microsoft.aspnetcore.app.runtime.win-x64.10.0.8.nupkg.sha512",
     "/Users/tungpham/.nuget/packages/microsoft.netcore.app.host.win-x64/10.0.8/microsoft.netcore.app.host.win-x64.10.0.8.nupkg.sha512"

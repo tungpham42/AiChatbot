@@ -1,0 +1,7 @@
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/AiChatbot.pdb
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/av_libglesv2.dll
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/libHarfBuzzSharp.dll
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/libHarfBuzzSharp.pdb
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/libSkiaSharp.dll
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/libSkiaSharp.pdb
+/Users/tungpham/Documents/GitHub/AiChatbot/Publish/Windows/AiChatbot.exe

@@ -1,0 +1,85 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:md="clr-namespace:Markdown.Avalonia;assembly=Markdown.Avalonia"
+        x:Class="AiChatbot.MainWindow"
+        Title="Soft.io AI Assistant" 
+        Width="850" Height="650"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Arial, sans-serif"
+        Background="#020617"
+        RequestedThemeVariant="Dark" 
+        Foreground="#FFFFFF"
+        Icon="/Assets/app-icon.ico">
+    <Window.Styles>
+        <!-- 1. Improve standard text readability with generous line height -->
+        <Style Selector="TextBlock">
+            <Setter Property="LineHeight" Value="26"/>
+        </Style>
+        
+        <!-- 2. FIX: Keep the input box background dark when hovering -->
+        <Style Selector="TextBox:pointerover /template/ Border#PART_BorderElement">
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="BorderBrush" Value="#334155"/>
+        </Style>
+
+        <!-- 3. FIX: Keep the background dark and add the blue ring when typing (focused) -->
+        <Style Selector="TextBox:focus /template/ Border#PART_BorderElement">
+            <Setter Property="Background" Value="#1E293B"/>
+            <Setter Property="BorderBrush" Value="#3B82F6"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+
+        <!-- 4. Keep the Send Button blue and text white on hover -->
+        <Style Selector="Button#SendButton:pointerover /template/ ContentPresenter#PART_ContentPresenter">
+            <Setter Property="Background" Value="#3B82F6" />
+            <Setter Property="Foreground" Value="#FFFFFF" />
+        </Style>
+    </Window.Styles>
+
+    <Grid RowDefinitions="*, Auto" Margin="0">
+        
+        <Border Grid.Row="0" 
+                Background="#0F172A" 
+                BorderBrush="#1E293B"
+                BorderThickness="0,0,0,2"
+                CornerRadius="0,0,24,24" 
+                Margin="15,15,15,5"
+                BoxShadow="0 8 20 0 #000000"
+                TextElement.Foreground="#F8FAFC" 
+                TextElement.FontSize="16"> <md:MarkdownScrollViewer x:Name="ChatHistory" Margin="30,25" />
+        </Border>
+
+        <Grid Grid.Row="1" ColumnDefinitions="*, Auto" Margin="20,15,20,25">
+            <!-- Distinct Input Box -->
+            <TextBox x:Name="InputBox" 
+                     Grid.Column="0" 
+                     PlaceholderText="Ask the AI anything..." 
+                     CornerRadius="20"
+                     Padding="20,16"
+                     FontSize="16"
+                     Background="#1E293B" 
+                     Foreground="#FFFFFF"
+                     BorderBrush="#334155" 
+                     BorderThickness="1"
+                     CaretBrush="#FFFFFF" 
+                     KeyDown="InputBox_KeyDown" 
+                     VerticalContentAlignment="Center"/>
+
+            <Button x:Name="SendButton" 
+                    Grid.Column="1" 
+                    Margin="15,0,0,0"
+                    CornerRadius="20"
+                    Background="#2563EB" 
+                    Foreground="#FFFFFF"
+                    FontWeight="Bold"
+                    FontSize="16"
+                    Padding="30,16"
+                    Click="SendButton_Click" 
+                    Cursor="Hand"
+                    VerticalAlignment="Stretch"
+                    VerticalContentAlignment="Center">
+                <TextBlock x:Name="SendButtonText" Text="Send ✨" />
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
